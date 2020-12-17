@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context=".fragment.CryptoFragment">
+
+    <RelativeLayout android:id="@+id/progressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/progressLayoutTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:fontFamily="@font/roboto_thin"
+                android:textColor="@color/white"
+                android:textSize="36dp"
+                android:paddingTop="32dp"
+                android:layout_centerHorizontal="true"
+                tools:text="Encrypting"/>
+        <TextView
+                android:id="@+id/progress"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                style="@style/RobotoLightText"
+                android:gravity="center"
+            android:textSize="36dp"
+            android:text="0/0"/>
+
+            <TextView
+                    android:id="@+id/backBtn"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="16dp"
+                    android:padding="16dp"
+                    android:text="@string/back"
+                    style="@style/RobotoLightText"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+
+</LinearLayout>

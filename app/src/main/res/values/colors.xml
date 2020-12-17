@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#354969</color>
+    <color name="colorPrimaryDark">#1e2a3e</color>
+    <color name="colorPrimaryDarkSemiTransparent">#801e2a3e</color>
+    <color name="colorAccent">#D7D7D7</color>
+    <color name="colorDarkBg">#FF424242</color>
+    <color name="black_transparent">#1A000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_semitransparent">#80FFFFFF</color>
+    <color name="white_transparent">#33FFFFFF</color>
+    <color name="white_popupBg">#E6FFFFFF</color>
+    <color name="colorSafe">#5cd3b5</color>
+    <color name="colorWarning">#fccc42</color>
+    <color name="colorCritical">#ff5153</color>
+    <color name="colorPrimaryAlpha">#E6354969</color>
+</resources>

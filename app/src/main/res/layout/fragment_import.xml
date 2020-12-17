@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".fragment.CryptoFragment">
+
+    <include android:visibility="gone"
+            android:id="@+id/loader_layout_import"
+            layout="@layout/loader_layout"/>
+
+    <include android:id="@+id/password_layout_import"
+            layout="@layout/password_view"/>
+
+    <include android:visibility="gone"
+            android:id="@+id/progress_layout_import"
+            layout="@layout/progress_layout"/>
+
+</LinearLayout>

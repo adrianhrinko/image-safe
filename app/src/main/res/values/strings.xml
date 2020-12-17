@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Safetica ImageSafe</string>
+    <string name="enter_password">Enter password</string>
+    <string name="import_password_detail">Enter password which has been used for encryption of currently imported
+        images.
+    </string>
+    <string name="enter">Enter</string>
+    <string name="ok">Ok</string>
+    <string name="password_change_warning">If you change password, you will have to import all the encrypted images
+        which are not currently on the device. Do not forget your current password so you can import them later on.
+    </string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+    <string name="pick_images">Pick images</string>
+    <string name="attention">Attention</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="share">Share</string>
+    <string name="decrypt">Decrypt</string>
+    <string name="delete">Delete</string>
+    <string name="imports">Import</string>
+    <string name="encrypt">Encrypt</string>
+    <string name="show_content">Show content</string>
+    <string name="change_pass">Change password</string>
+    <string name="select_all">Select all</string>
+
+    <plurals name="n_images_encrypted">
+        <item quantity="one" formatted="true">%d photo encrypted</item>
+        <item quantity="other" formatted="true">%d photos encrypted</item>
+    </plurals>
+    <plurals name="n_images_decrypted">
+        <item quantity="one" formatted="true">%d photo decrypted</item>
+        <item quantity="other" formatted="true">%d photos decrypted</item>
+    </plurals>
+
+    <plurals name="n_images_imported">
+        <item quantity="one" formatted="true">%d photo imported</item>
+        <item quantity="other" formatted="true">%d photos imported</item>
+    </plurals>
+    <plurals name="n_keys_rewritten">
+        <item quantity="one" formatted="true">%d key rewritten</item>
+        <item quantity="other" formatted="true">%d keys rewritten</item>
+    </plurals>
+
+    <string name="encrypting">Encrypting</string>
+    <string name="decrypting">Decrypting</string>
+    <string name="importing">Importing</string>
+    <string name="rewriting_keys">Rewriting keys</string>
+    <string name="password_setup">Password setup</string>
+    <string name="password_setup_detail">Enter your new password. It should contain at least one upper case letter, one
+        number and be at least 6 characters long.
+    </string>
+    <string name="weak">Weak</string>
+    <string name="sufficient">Sufficient</string>
+    <string name="safe">Strong</string>
+    <string name="login">Login</string>
+    <string name="login_detail">Enter your password.</string>
+
+    <plurals name="incorrect_password">
+        <item quantity="one" formatted="true">Incorrect password. You have %d more try.</item>
+        <item quantity="other" formatted="true">Incorrect password. You have %d more tries.</item>
+    </plurals>
+
+    <string name="confirm_password">Confirm your password, please.</string>
+    <string name="passwords_not_same">Entered passwords are not the same. Try again, please.</string>
+    <string name="permissions">Permissions</string>
+    <string name="grant_permissions">Grant permissions</string>
+    <string name="permissions_detail">Following permissions are needed to ensure that our app will work correctly:</string>
+    <string name="permission_camera">• CAMERA – Using this permission you will be able to take photos directly from our application.</string>
+    <string name="permission_storage">• STORAGE – This permission is needed to access photos on the device.</string>
+    <string name="all_permissions_must_be_granted">All permissions must be granted.</string>
+    <string name="delete_detail">This will completely delete selected files.</string>
+    <string name="add_image">Tap + button to add image.</string>
+</resources>

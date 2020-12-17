@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Safetica ImageSafe</string>
+    <string name="enter_password">Zadejte heslo</string>
+    <string name="import_password_detail">Zadejte heslo, které bylo použito pro šifrování aktuálně importovaných fotografií.</string>
+    <string name="enter">Zadat</string>
+    <string name="ok">Ok</string>
+    <string name="password_change_warning">Pokud změníte heslo, budete muset importovat všechny šifrované obrázky, které momentálne nejsou v zařízení. Nezapomeňte své aktuální heslo, abyste je mohli později importovat.</string>
+    <string name="confirm">Potvrdit</string>
+    <string name="back">Zpět</string>
+    <string name="pick_images">Vyberte obrázky</string>
+    <string name="attention">Pozor</string>
+    <string name="cancel">Zrušit</string>
+    <string name="send">Poslat</string>
+    <string name="share">Sdílet</string>
+    <string name="decrypt">Dešifrovat</string>
+    <string name="delete">Smazat</string>
+    <string name="imports">Importovat</string>
+    <string name="encrypt">Šifrovat</string>
+    <string name="show_content">Zobrazit obsah</string>
+    <string name="change_pass">Změnit heslo</string>
+    <string name="select_all">Vybrat vše</string>
+
+    <plurals name="n_images_encrypted">
+        <item quantity="one" formatted="true">%d fotografia zašifrovaná</item>
+        <item quantity="few" formatted="true">%d fotografie zašifrované</item>
+        <item quantity="other" formatted="true">%d fotografií zašifrovaných</item>
+    </plurals>
+    <plurals name="n_images_decrypted">
+        <item quantity="one" formatted="true">%d fotografia dešifrovaná</item>
+        <item quantity="few" formatted="true">%d fotografie dešifrované</item>
+        <item quantity="other" formatted="true">%d fotografií dešifrovaných</item>
+    </plurals>
+    <plurals name="n_images_imported">
+        <item quantity="one" formatted="true">%d fotografia importovaná</item>
+        <item quantity="few" formatted="true">%d fotografie importované</item>
+        <item quantity="other" formatted="true">%d fotografií importovaných</item>
+    </plurals>
+    <plurals name="n_keys_rewritten">
+        <item quantity="one" formatted="true">%d klíč přepsán</item>
+        <item quantity="few" formatted="true">%d klíče přepsané</item>
+        <item quantity="other" formatted="true">%d klíčú přepsaných</item>
+    </plurals>
+
+    <string name="encrypting">Probíhá šifrování</string>
+    <string name="decrypting">Probíhá dešifrování</string>
+    <string name="importing">Probíhá import</string>
+    <string name="rewriting_keys">Probíhá přepis klíčů</string>
+    <string name="password_setup">Nastavení hesla</string>
+    <string name="password_setup_detail">Zadejte vaše nové heslo. Mělo by obsahovat alespoň jedno velké písmeno, jedno číslo a mělo by být dlouhé alespoň 6 znaků.</string>
+    <string name="weak">Slabé</string>
+    <string name="sufficient">Dostatečné</string>
+    <string name="safe">Silné</string>
+    <string name="login">Přihlásit se</string>
+    <string name="login_detail">Zadejte heslo.</string>
+
+    <plurals name="incorrect_password">
+        <item quantity="one" formatted="true">Nesprávné heslo. Máte %d pokus.</item>
+        <item quantity="few" formatted="true">Nesprávné heslo. Máte %d pokusy.</item>
+        <item quantity="other" formatted="true">Nesprávné heslo. Máte %d dalších pokusů.</item>
+    </plurals>
+
+    <string name="confirm_password">Potvrďte své heslo, prosím.</string>
+    <string name="passwords_not_same">Zadaná hesla nejsou stejná. Zkuste to prosím znovu.</string>
+    <string name="permissions">Oprávnění</string>
+    <string name="grant_permissions">Udělit oprávnění</string>
+    <string name="permissions_detail">K zajištění toho, aby naše aplikace fungovala správně, jsou nutná následující oprávnění: </string>
+    <string name="permission_camera">• FOTOAPARÁT - Pomocí oprávnění povolení budete mít možnost fotografovat přímo z naší aplikace.</string>
+    <string name="permission_storage">• SOUBORY - Toto oprávnění je nutné pro přístup k fotografiím v zařízení.</string>
+    <string name="all_permissions_must_be_granted">Všechna oprávnění musí být udělena.</string>
+    <string name="delete_detail">Tímto se zcela odstraní vybrané soubory.</string>
+    <string name="add_image">Klepnutím na tlačítko + přidáte obrázek.</string>
+</resources>

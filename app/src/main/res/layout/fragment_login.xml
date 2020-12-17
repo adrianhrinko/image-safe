@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <include
+            android:visibility="gone"
+            android:id="@+id/passwordLoaderLayout"
+            layout="@layout/loader_layout"/>
+
+    <com.safetica.datasafe.view.CountDownView
+            android:id="@+id/countDownView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+    </com.safetica.datasafe.view.CountDownView>
+
+    <include
+            android:id="@+id/password_layout"
+            layout="@layout/password_view"/>
+
+
+</LinearLayout>
